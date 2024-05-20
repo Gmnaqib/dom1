@@ -1,0 +1,25 @@
+.utama {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    background-color: rgb(100, 100, 100);
+}
+
+.kiri {
+    border: 2px solid black;
+    padding: 15px;
+  }
+
+  .kanan {
+    border: 2px solid black;
+    padding: 15px;
+  }
+
+   
+   
+  .form-element {
+    margin: 8px;
+    text-align: left;
+  }

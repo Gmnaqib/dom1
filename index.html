@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form World</title>
+ 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <h1>Input Range dengan DOM</h1>
+      <br>
+    </center>
+
+    <div class="utama">
+        <div class="kiri">
+            <form id="formDataDiri">
+                <h1>Merah</h1>
+                <input type="range" value="100" min="0" max="255" name="merah">
+                <h1>Biru</h1>
+                <input type="range" value="100" min="0" max="255" name="biru">
+                <h1>HIjau</h1>
+                <input type="range" value="100" min="0" max="255" name="hijau">
+            </form>
+        </div>
+
+        <div class="kanan">
+            <form id="formDataDiri">
+                <h1 id="huruf">A</h1>
+                <input type="range" value="0" min="0" max="6" name="huruf">
+                
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
